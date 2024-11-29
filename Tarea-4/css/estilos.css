@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+  font-family: sans-serif;
+}
+section {
+  min-height: calc(100vh - 40px);
+  border: 1px solid #ccc;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #0056b3;
+}
+
+
+.section-1{
+  background-color: #86b3e3;
+  margin: 20px;
+  padding: 15px;
+}
+
+
+.section-2{
+  background: url(../img/venecia_canal.jpg) center center no-repeat;
+
+}
+
+.section-3{
+    border: solid 2px red;
+    border-radius: 10px;
+    margin:20px;
+}
+
+
+.section-4  {                 
+    border: solid 2px;
+    padding: 50px;
+    margin: 10px;
+}
+
+.section-4 p {                 
+   font-weight: bold;
+
+}
+
+.section-5 div{
+    background: yellow;
+    text-align: center;
+}
+
+.section-6{
+  border: violet double 5px;
+  background: rgba(206, 206, 15, 0.781);
+  margin: 40px;
+}
+
+.section-7{
+    background-image: url(../img/venecia_canal.jpg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+}
+
+
+.section-8{
+    background: url(../img/venecia_canal.jpg) ;
+    background-size: 50% 100%;
+    background-repeat: repeat-x;
+
+}
+
+.section-9{
+    background: red  url(../img/venecia_canal.jpg)  no-repeat ;
+    background-size: 500px 400px ;
+    background-position:  top right;
+
+}
+
+
+.section-9 a {
+    background: green;
+    margin-top:5px;
+    margin-bottom: 5px;
+
+}
+
+.section-10{
+    width: 50%;
+    border: green 3px dotted;
+    padding: 25px;
+}

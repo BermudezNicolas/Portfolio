@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias</title>
+</head>
+<body>
+    <header>
+        <div>Logo</div>
+        <h1>Noticias</h1>
+    </header>
+
+    <nav>
+        <a href="#nacional">Nacional</a>
+        <a href="#internacional">Internacional</a>
+        <a href="#deportes">Deportes</a>
+        <a href="#economia">Economía</a>
+    </nav>
+
+    <main>
+        <div class="content">
+            <section id="nacional">
+                <h2>Noticias Nacionales</h2>
+                <article>
+                    <figure>
+                        <img src="imgs/nacional.jpg" alt="Noticia Nacional 1" width="100%" height="auto">
+                        <figcaption>Gente</figcaption>
+                    </figure>
+                    <a href="https://www.lanacion.com.ar/sociedad/no-hay-informacion-confusion-e-incertidumbre-en-aeroparque-por-nuevos-cambios-en-los-vuelos-nid30082024/">Fuente</a>
+                    <h3>Bronca en Aeroparque por casi 20 vuelos cancelados y reprogramaciones: más de 5500 pasajeros afectados</h3>
+                    <p>Como los gremios de Pilotos y Aeronavegantes iban a realizar asambleas de 6 a 9, las aerolíneas trasladaron los servicios hacia Ezeiza; frente a esto, los sindicatos modificaron los horarios de las reuniones</p>
+                </article>
+              
+            </section>
+
+            <section id="internacional">
+                <h2>Noticias Internacionales</h2>
+                <article>
+                    <figure>
+                        <img src="imgs/internacional.jpg" alt="Noticia Internacional 1" width="100%" height="auto">
+                        <figcaption>Trabajadores</figcaption>
+                    </figure>
+                    <a href="https://elpais.com/internacional/2024-08-30/alemania-reanuda-las-deportaciones-a-afganistan-dos-dias-antes-de-unas-elecciones-marcadas-por-el-debate-migratorio.html">Fuente</a>
+                    <h3>Alemania reanuda las deportaciones a Afganistán dos días antes de unas elecciones marcadas por el debate migratorio</h3>
+                    <p>El Gobierno de Scholz, presionado por la oposición para endurecer su política de asilo, da un golpe de efecto antes de los comicios en Sajonia y Turingia, donde la ultraderecha lidera las encuestas.</p>
+                </article>
+               
+            </section>
+
+            <section id="deportes">
+                <h2>Noticias Deportivas</h2>
+                <article>
+                    <figure>
+                        <img src="imgs/deportes-2.jpg" alt="Noticia Deportiva 1" width="100%" height="auto">
+                        <figcaption>Juegos Paralímpicos</figcaption>
+                        <a href="https://www.infobae.com/espana/deportes/2024/08/30/que-son-la-boccia-y-el-goalball-los-deportes-desconocidos-de-los-juegos-paralimpicos/">Fuente</a>
+                    </figure>
+                    <h3>Juegos Paralímpicos de París 2024</h3>
+                    <p>Los Juegos Paralímpicos de París 2024 comienzan el miércoles 28 de agosto. En total serán 11 días repletos de deporte, hasta la ceremonia de clausura que tendrá lugar el 8 de septiembre. Esta será la 17ª edición de esta competición y participarán en ella 4.400 deportistas de 182 países diferentes.</p>
+                </article>
+               
+            </section>
+
+            <section id="economia">
+                <h2>Noticias de Economía</h2>
+                <article>
+                    <figure>
+                        <img src="imgs/economia.jpg" alt="Noticia de Economía 1" width="100%" height="auto">
+                        <figcaption>Dinero</figcaption>
+                    </figure>
+                    <a href="https://www.infobae.com/economia/2024/08/30/el-bcra-vendio-usd-238-millones-en-el-mercado-el-mayor-saldo-negativo-en-la-era-milei/">Fuente</a>
+                    <h3>El BCRA vendió USD 238 millones en el mercado, el mayor saldo negativo en la era Milei</h3>
+                    <p>El monto operado en el mercado mayorista prácticamente se duplicó respecto del jueves, con USD 535,7 millones en el segmento de contado, con ventas por parte del Banco Central que alcanzaron los USD 238 millones (el 44,4% de la oferta), el mayor monto negativo de la administración de Javier Milei, tras ventas por USD 401 millones el 7 de diciembre del año pasado.</p>
+                </article>
+              
+            </section>
+        </div>
+
+        <aside class="sidebar">
+            <h3>Publicidad</h3>
+            <p>Espacio para banners publicitarios o anuncios.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Información de contacto: <a href="mailto:contacto@noticiasdiario.com">contacto@noticiasdiario.com</a></p>
+        <p><a href="#politica-privacidad">Política de Privacidad</a> | <a href="#terminos-uso">Términos de Uso</a></p>
+    </footer>
+</body>
+</html>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+
+
+    nav {
+        background-color: #444;
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav a {
+        color: #fff;
+        padding: 10px;
+    }
+
+    
+    main {
+        display: flex;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .content {
+        flex: 3;
+    }
+
+    .sidebar {
+        flex: 1;
+        background-color: #f4f4f4;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+  
+
+    article {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    figure {
+        margin: 0;
+    }
+
+   
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+    }
+
+
+
+</style>
